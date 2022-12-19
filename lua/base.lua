@@ -1,4 +1,5 @@
 vim.cmd("autocmd!")
+vim.cmd [[ syntax enable ]]
 
 vim.opt.cursorline = true
 vim.opt.termguicolors = true

@@ -5,6 +5,7 @@ vim.g.mapleader = ' '
 -- Commands
 keymap.set('n', '<leader>pv', vim.cmd.Ex)
 keymap.set('n', '<C-s>', ':w<CR>')
+-- keymap.set('n', '<C-s>', ':w<CR>:lua vim.lsp.buf.format()<CR>')
 
 -- Do not yank with x
 keymap.set('n', 'x', '"_x')

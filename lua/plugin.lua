@@ -29,6 +29,7 @@ return require('packer').startup(function(use)
   use 'jose-elias-alvarez/null-ls.nvim'
   use 'neovim/nvim-lspconfig'
   use 'glepnir/lspsaga.nvim'
+  use('MunifTanjim/prettier.nvim')
 
   -- Telescope
   use {
